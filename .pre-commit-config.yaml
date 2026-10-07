@@ -1,0 +1,22 @@
+repos:
+  - repo: local
+    hooks:
+      - id: pyink
+        name: pyink
+        entry: pyink
+        language: system
+        types: [python]
+        args: [--check]
+
+      - id: isort
+        name: isort
+        entry: isort
+        language: system
+        types: [python]
+        args: [--check-only]
+
+      - id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]

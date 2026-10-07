@@ -1,0 +1,153 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
+
+# Local virtual environment
+/.venv/
+
+# Test cache
+.pytest_cache/
+
+# Local environment variants
+.env.*
+!.env.example
+
+# Research data and generated artifacts
+# Keep directory placeholders while excluding data and generated files.
+/data
+!/data/
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+/outputs
+!/outputs/
+/outputs/**
+!/outputs/**/
+!/outputs/**/.gitkeep
+/checkpoints
+/cache
+
+# LaTeX build artifacts
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+/intro.out
+/intro.pdf
+
+# Image and video files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.avif
+*.heic
+*.heif
+*.svg
+*.mp4
+*.m4v
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mpg
+*.mpeg
+*.wmv
+*.flv
+
+# Version-controlled README illustration
+!/assets/readme/spatial_graph_overview.jpg
+
+# Local agent instructions and plans
+/AGENTS.md
+/PLANS.md
+
+# Local research document
+/intro.tex
